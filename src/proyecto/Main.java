@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-	Stack<Integer> st1= new StackImpl<Integer>(10);
+/*	Stack<Integer> st1= new StackImpl<Integer>(10);
 try {
     st1.push(1);
     st1.push(2);
@@ -36,5 +36,7 @@ catch(Exception e)
         System.out.print(st1.size());
 
 }
+*/
 
+    }
 }
