@@ -1,5 +1,7 @@
 package proyecto;
 
+import org.junit.Test;
+
 /**
  * Created by Turpitude on 19/09/2016.
  */
@@ -11,7 +13,8 @@ public class StackImpl<E>  implements  Stack<E> {
     public StackImpl(int len) {
         this.elements= (E[])new Object[len];
     }
-    public int size() {
+    public int size()   {
+
         return this.size;
     }
 
